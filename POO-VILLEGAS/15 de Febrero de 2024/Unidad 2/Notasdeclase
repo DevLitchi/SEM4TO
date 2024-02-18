@@ -1,0 +1,76 @@
+-'ABSTRACCION Y ENCAPSULAMIENTO'-
+Competencia:Diseñar los leementos de losobjetos, mediante la presentacion de los mismos y su sintaxis en lo LPOO
+Temas de unidad 2:
+  2.1.1:
+    Definicion de clase
+    Supongamos que deseamos construir un CARRO.
+    Presionar pedal para aumentar velociad.
+    Antes de construirlo, alguien tiene que diseñarlo. (Dibujos de Ingenieria).
+    Diseño de pedal de acelerador freno y volante, etc.
+    El pedal oculta los complejos mecanismos para acelerar. A esto se le llama caja negra cunado no se conoce los procesos del software.
+    
+    La CLASE:  Es el diseño del carro en papel (tiene x cantidad de cosas).
+    El OBJETO: Es cuando ya tenemos creado el carro.
+    Los METODOS: son mensajes que podemos ejecutar con objeto. Le podemos decir avance, que se detenga, que gire a la izquierda o derecha.
+    Los METODOS: serian acelerar, frenar y girar.
+    Los ATRIBUTOS: Siempre estan asociados con el objeto (CARRO) por ejemplo (Color, marca, modelos)
+    Un conjunto: de objetos que comparten una estructura (atributos) y comportamiento comunes(Hacen o sirven para lo mismo)
+    Es una agrupacion de datos (Variables o campos-atributos) de metodos que operan sobre objetos.
+
+    
+  2.1.2:
+  //Idea de programa...crear una extension o programa que por medio de inteligencia artificial captures una foto y se mande el texto a tu laptop o pc, si estas anotando una clase tomarle foto al pizzarron y poder extraer texto o tenerlo como imagen
+
+
+    Miembros de una clase: Variables de clase y metodos
+    Los miembos de una clase son las variables y metodos aun que tambien se les conocen como atributos
+
+
+
+      Ejemplo de una clase:               Sintaxis para declarar una clase:                                                                                 Funcion: 
+            public class Tacoma{        Public = modificador de acceso | Class = Palabra reservada class | Tacoma = Nombre de la clase |Abrir y cerrar {}. sirve para crear y declarar una clase.
+                                          
+      Ejemplo de un atributo:             Sintaxis para declarar un atributo:                                         Funcion:
+              String numeroSerie;         String = Tipo de dato | numeroserie = nombre del atributo creado            Sirve para almacenar informacion o caracteristicas del objeto.
+              String modelo;
+              String color;
+            }
+
+
+      Public void acelerar(){
+      }
+      Public void frenar(){
+      }
+      Public void girar(Int vuelta){
+      }
+
+
+
+    2.2.1:
+      Diferencia entre operacion y metodo.            // Tarea syntaxis para crear una clase, atributo,objeto y metodo en Python en mano.
+      Que es un metodo?:
+      - Un metodo es la accion que hara un objeto creado
+      Que es una operacion?:
+      -Es la accion que realizara un metodo, el metodo es lo que se declara como se muestra en la sintaxis y la operacion lo quehara dicho metodo.
+      Syntaxis de  Metodo:
+      ModificacorDeAccesos  | TipoRetorno | NombreDelMetodo | (TipoDeDatoYArgumentos){Abrir y cerrar llaves
+      return xxx;
+      }
+      
+      Si existiera en distintas clases metodos de manera en que se repiten separados se diria que si son iguales solo hay n cantidad de operaciones pero depende cuantas veces se usan es n cantidad de metodos.
+
+    2.2.3:
+    Definicion de Objeto:
+    Es algo que tiene un estado un comportamiento y una identidad y ya esta creado, es una instancia de una clase.
+    Un objeto no se puede llamar igual que otro ya establecido, cada uno tiene una identidad, y solo puede existir una sola vez.
+  
+    2.3.2 Declaracion e inicializacion de objetos.
+    Un objeto se crea con el operador NEW aplicado a un constructor de la clase. El operador NEW crea el objeto y devuelve una referencia al objeto creado. El objeto permanecera vivo siempre
+    que este referenciado por una variable de la clase que es instancia.
+    Sintaxis:
+    NombreDeLaClase nombreObjeto = new NombreDELaClase(Argumentos);
+    LibroCalificaciones =  nnombre de la clase                         | miLibroCalificaciones=nombre del objeto                 | = new  Libro de calificaciones(); = Esto es un construtor nunca retorna valores y se tiene que llamar como las clases
+    
+    Nombredelaclase nombreobjetos();
+     
+

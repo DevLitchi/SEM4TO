@@ -1,0 +1,77 @@
+class Lista {
+
+    public Nodo inicio;
+    public Nodo fin;
+
+    public Lista() {
+        inicio = null;
+        fin = null;
+    }
+
+    public void insertar(String nombre) {
+        Nodo nuevo = new Nodo();
+        Nodo temp = new Nodo();
+
+        nuevo.elemento = nombre;
+        nuevo.sig = null;
+        nuevo.anterior  = null; 
+        
+
+        if (inicio == null) {
+            // Agregar primer elemento
+            inicio = nuevo;
+            fin = nuevo;
+        } else {
+            // Metodo facil apartir del segundo elemento
+            // fin.sig = nuevo;
+            // fin = nuevo;
+
+            // Forma convencional
+            temp = inicio;
+            while (temp.sig != null) {
+                temp = temp.sig;
+            }
+            temp.sig = nuevo;
+            nuevo.anterior = temp;
+            fin = nuevo;
+            
+        }
+    }
+
+    public boolean isListEmpty() {
+        if (inicio == null) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    public void eliminarInicio() {
+        Nodo temp = new Nodo();
+        temp = inicio;
+        if (inicio != null) {
+            inicio = inicio.sig;
+            temp.sig = null;
+        }
+    }
+
+    public void eliminarfin() {
+        Nodo temp = new Nodo();
+        temp = fin;
+        if (fin != null) {
+            fin = fin.anterior;
+            fin.sig = null;
+            temp.anterior = null;
+        }
+        }
+    }
+
+    public void mostrar() {
+        Nodo temp = new Nodo();
+        temp = inicio;
+        while (temp != null) {
+            System.out.println(temp.elemento);
+            temp = temp.sig;
+        }
+    }
+}

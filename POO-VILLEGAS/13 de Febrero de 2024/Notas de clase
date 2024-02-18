@@ -1,0 +1,141 @@
+Conocer los 5 lenguajes de POO mas conocidos
+
+Que es UML?? 
+-Modelado orientado a objetos
+-Modelado de datos
+-Modelado de componentes
+
+UML HACE:
+Mas facil la caputa y la comprencion de las ideas de los creadores de sistemas
+UML ES:
+Una herremienta que sirve para modelar sistemas esto ayuda a organizar y reducir el desarrollo
+UML ES CREACION DE :
+Grady Booch, Ivar Jacobson y James Rumbaugh
+UML ESTA COMPUESTO POR:
+Elementos graficos como diagramas como diagramas de uso diagramas de objetos, de casos de uso, de clases y de estado, de componenetes y  de distribucion
+
+diagramas de clase: describe el tipo de objetos que hay en el sistema y diversas clases de relaciones estaticas que existen entre ellos
+Hay dos tipos de relaciones estaticas
+1. Asociacion: Por ejempolo un alumno puede pedir restados diversos alumnos.
+2. Subtipos o Herencia: (Una enfermera es un tipo de persona)
+
+TAREAS PENDEINTES:
+Lenguajes de POO
+
+
+Diagramas de Clase
+-Describe los atributos y metodos de una clase y las restricciones a las que esta sujeta
+
+TIpos de diagramas:
+----------------------
+|                     |           |
+|      CLASES         | ----------|
+|                     |
+|                     |
+----------------------
+
+
+----------------------
+|                     |
+|      ATRIBUTOS      |
+|                     |------------
+|                     |           |
+----------------------             -------- (rOMBO NEGRO LLENO ES IGUAL A COMPOSICION)
+
+----------------------
+|                     |
+|         METODOS     | ------------
+|                     |             |
+|                     |              -------- (aGREGACION ES UN ROMBO HUECO)
+----------------------
+
+----------------------------------------------------------------------------------------------------------------------
+Continuacion de clase dia 14 de febrero de 2024
+
+Sistema Zoologico
+
+
+clase llamada 
+Atributo: Un dato importante que contiene valores que describen cada instancia de esa clase
+Caracteristicas de una clase en este caso un ANIMAL TIENE
+---------------------------------------------------------
+|   Clase = Animales:
+|   Caracteristicas =
+|   Nombre | Id | EDAD 
+-_________________________
+| Definir nombre()
+| - comen()
+|
+----------------------------------------------------------
+
+----------------------------------------------------------
+Atributos, los atributos comienzan con:
+- El tipo de visibilidad
+- Nombre de atributo iniciando con minuscula
+- :
+- Y el tipo de dato
+----------------------------------------------------------
+Tipos de visibilidad
++ Es visibilidad publico 
+- Es visibilidad Privada
+# Es visibilidad protegida
+~ Es de visibilidad predeterminada o por defecto
+-----------------------------------------------------------
+RELACIONES                      Animales
+- Herencia ------D  ------------------------------                      -----------------------------
+                    |          Tortuga            |                    |            Nutrias          |
+                    |  Nombre: string             |                    |                             |
+                    |  Id : entero                |                    |                             |
+                    |  Edad :entero               |                    |                             |
+                    | definirNombre()             |                    |                             |
+                    | comen()                     |                    |                             |
+                    -------------------------------                     ------------------------------
+
+
+Tipos de diagramas UML
+Elementos estructurales | Elementos de comportamiento | Elementos de agrupacion | Elementos de anotacion
+-Clases                    -Interaccion                 -Paquete                   -Nota
+-Interfaz                  -Maquinas de estado
+-Colaboraciones
+-Actores
+-Caso de uso
+-Comonentes 
+-Nodos
+
+
+Herencia ---------------------D
+Asoicaion ---------------------
+Composicion <--------------------<> rombo rellenado
+Agregacion <-------------------<> rombo hueco
+notas
+
+
+-----------------------------------------------------------------------------------------------------
+
+Agregacion:
+La agregacion es un tipo de asociacion que indica que un clase es parte de otra por ejemplo la clase de clientes de la clase de empresa. 
+La destrucion del compuesto no conlleva a la destruccion de los componentes anidados a ella
+La agregacin se representa en UNL mediante un diamante de color blanco colocado en el extremo en el que esta la clase que representa el todo.
+
+Composiccion:
+En este caos a diferencia de la agregacion es un tipo de clases dependeintes el una de la otra si eliminas empresa se eliminan los clientes
+El simnolo de composicion es un diamante de color negro colocado en el extremo en el que esta la clase que representa el todo 
+
+
+----------------------------------------------------------------------------------------------
+                                                        Agregacion              Composicion
+----------------------------------------------------------------------------------------------
+Varias asociaciones comparten los compomentnes              Si                      NO
+----------------------------------------------------------------------------------------------
+Destuccion de los componentes al destruir el compuesto      NO                      SI
+----------------------------------------------------------------------------------------------
+Cardinalidad a nivel compuedsto                          Cualquiera                0,1 o 1
+-----------------------------------------------------------------------------------------------
+Representacion                                        Rombo transparente          Rombo negro
+-----------------------------------------------------------------------------------------------
+
+
+
+
+
+

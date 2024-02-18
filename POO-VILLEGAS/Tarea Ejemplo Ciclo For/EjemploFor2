@@ -1,0 +1,41 @@
+/*
+Programa para demostrar el uso del Ciclo For
+*/
+
+package poo.ciclofor;
+import java.util.Scanner;
+
+public class CicloFor {
+
+    public static void main(String[] args) {
+    Scanner leer=new Scanner(System.in);
+    
+    int i;
+    int tabla=0;
+    
+    System.out.println("Que tabla desea imprimir?");
+    tabla=leer.nextInt();
+    System.out.println("Que tabla con FOR");
+    
+    for (i=0;i<=10;i++){
+        System.out.println(tabla+ "X" + i + " = "+tabla*i);
+    }
+    System.out.println("---------------------------");
+    System.out.println("Que tabla utilizando While");
+    i=0;
+    while(i<=10){
+        System.out.println(tabla + " X " + i + " = "+tabla*i);
+        i++;
+    }
+    System.out.println("---------------------------");
+    System.out.println("Que tabla con Do-While");
+    do{
+        System.out.println(tabla + " X " + i + " = "+tabla*i);
+        i++;
+    }while(i<=10){
+
+    
+
+    }
+    }
+}

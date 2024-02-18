@@ -1,0 +1,160 @@
+Encuadre 2024-1
+Correo = Villegas_josemanuel@uabc.edu.mx
+Clases = Martes de 14-15, Miercoles y Jueves de 9 a 11
+Lenguaje de Programacion Orientada a Objetos
+
+Evaluacion:
+Examenes 40%
+Proy. final 30%
+Practicas 20%
+Tareas (mano) 10%
+(Si no se entrega el proyecto final es ordinario directamente)
+Cada practica que se haga en Java deberemos hacerla en Python
+
+Asistencias:
+80% para tener derecho a ordinario
+60% para tener derecho a extraordinario
+
+MachinelearningforPython
+
+5 lenguajes de programacion o los mas usuales:
+
+Glosario:
+Clases =
+Objetos =
+Metodo =
+Atributos =
+Herencia =
+Subclases =
+Corrutinas = 
+Funciones virtuales = 
+Instancias =
+Polimorfismo =
+Encapsulacion = 
+Abstaccion =
+
+
+
+
+Lenguajes importantes:
+C Sharp
+C ++
+Swift
+
+Buscar si existe en el lenguaje de progrmaacion una clase que ya haga lo que deseemos:
+
+
+RE ESCRIBIR EN CUADERNO PAL EXAMEN:
+
+Unidad 1. Paradigma de orientacion a Objetos
+    1.1 
+
+    El paradigma de OO, sus principales conceptos y ventajas
+    Es un paradigma de la programacion de computadoras que tiene como objetivo el desarrollo computacional
+    basado en una "COLECCION DE OBJETO QUE ESTAN INTERRELACIONAS Y TRABAJAN CONJUNTAMENTE PARA RESOLVER UN PROBLEMA."
+    Surge dentro de los paradigmas de la progrmaacion como un enfoque diferente al momento de obtener soluciones
+    computacionales. 
+    
+    Ventajas:
+    - Una buena abstraccion de las clases, objetos y atributos nos bruna una implementacion mas detallada, puntual y coherente
+    - Reutilizacion de codigo: Cuando se han diseñado adecuadamente las clases, se puden usar en distintas partes del programa y en numerosos proyectos (Herencia)
+    - Lo cual permite:
+        Rapido desarrollo
+        Alta calidad del codigo
+        Bajo costo en fases de desarrollo
+    -Modificabilidad: La facilidad de añadir o suprimir nuevos objetos nos permite hacer modificaciones de una forma muy sencilla.
+    -Encapsulamiento: Nos permite proteger la integridad de los datos.
+    -Fiabilidad: al dividir el problema en partes mas pequeñas podemos probarlas de manera independiente y aislar mucho más facilmente los posibles errores que puedan surgir
+    -Bajo acoplamineto y alta cohesion: Las clases son independientes entre si, y hacen las tareas especificas para las cuales fueron diseñadas.
+    -Mantenimiento de software
+    -Amplia documentacion
+
+    Desventajas:
+    -La curva de aprendizaje: La necesidad de utilizar bibliotecas de clases obliga a su aprendizaje y entrenamiento. 
+    -La ejecución de programas orientados a objetos es más lenta por el uso de clases y de herencia y dependencias. Usar atributos y variables locales hacen que sea mejor la optimizacion del programa.
+    -Se hereda codigo que no se usa en la clase hija cuando se extiende de una clase padre. es importante diseñar bien el codigo para no tener codigo de relleno.
+    -Tiempo en fase de diseño.
+    -Tamaño del programa.
+
+    No hay objeto sin clase, primero la clase despues el objeto:
+
+    Que es una clase
+        Una clase es una plantilla, que define de manera generica como van a ser los objetos de determinado tipo. Es como un molde para crear objetos
+    Sus principales conceptos
+        Una clase para representas a personas puede llamarse P e r s o n a. Los atributos y comportamientos sirven para definir lo que se hara con los objetos
+        Los atributos caracterizan los objetos y los comportamientos rigen que es lo que hara el objeto
+        -Atributos (Nombre, Apellidos o Edad(Que normalmente son propiedades))
+        -Comportamientos (Como hablar(), caminar() o comer() y que se implementan como metodos de la clase (funciones))
+    Sus principales conceptos:
+    -Una clase por si sola no sirve de nada pues no es mas que un concepto, sin entidad real.
+    -Para poder utilizar una clase en un programa lo que hay que hacer es Instanciarla. 
+    -Instanciar una clase consiste en crear un nuevo objeto concreto de la misma clase.
+
+    -NINGUN OBJETO SE PUDE LLAMAR DE LA MISMA MANERA
+
+    - Un objeto es ya una entidad concreta que se crea a partir de la plantilla que es la clase
+    -Ese nuevo objeto ya existe en la memoria y se puede utilizar en el programa y ese objeto puede ser una persona que se llama Cristina Lopez dento de sus atributos son su nombre su edad y sus comportamientos ya estan definidos en la clase como hablar, caminar y comer.
+
+    I E E E = buscar xd
+
+    1.2 CICLO DE VIDA Y LAS FASES DE DEESARROLLO
+    -El ciclo de vida del desarrolo del softeare contmepla la sfases necesarias para validar el desarrollo del software y asi garantizar que este cumpla los requisitos para la aplicacion y verifivacion de los procedimientos de desarrollo, asegurandonose de que los metodos usados sean apropiados.
+
+
+    Las 7 Fases del SDCL
+    Planificacion del concepto/Definicion de requisitos/Diseño/Fase del desarrollo y pruebas/Puesta en marcha/Operaciones y mnatenimientos/Disposición
+    
+    Planificacion conceptual
+        La plinificacion conceptual es la primera fase del ciclo de vida del desarrollo de sistemas. En esta fase, las personas importantes que participan en el proyecto o interesados definen el sistema propuesto y determinan el alcance del proyecto. Ademas, se determinan las limitaciones de factores como los recursos, presupuestos y tiempo.
+    Definicion de requisitos
+        Despues de que los interesados establezcan el alcance del proyecto, los especialisatas en tecnologias de la informacion trabajan con los usuario sfinales para definir los requisitos de negocio del 
+        Cuando todos los requisitos se reunen de nuevo con los usuarios finales para verificar los requisitos y conseguir la validacion por parte de los usuarios
+    Diseño
+        En la dase del diseño, los especialistas de Ti transforman los requisisots en requisitos tecnicos. Inicialmente los desarrolladores crean un diseño tecnico preliminar para tratar todos los requisitos de negocio del sistema definidos en la fase de definicion de requisitos. Cuando el diseño preliminar ha terminado, los desarrolloadores hacen un diseño tecnio
+    Desarrollo y pruebas
+        En la fase de desarrollo y pribas, los desarrolladores empiezan a desarrolar el sistema actual. Esto incluye crear el software y construir la arquitectura adecuada de la base de datos del sistema. Las prubeas empiezan despues de terminar la construccion de los componentes del sistema. Ademas, los analistas que aseguran la calidad verifican que el sistema reuna los requisitos de negocio usando un plan de pruebas detallado
+    Puesta en marcha
+        Distribuyen el nuevo sistema a todos los usuarios finales para que puedan empezar a usarlo. Ademas, los especialistas proporcionan la decumentacion del sistema a los usuarios finales. La formacion tambiuen es una parte importante de la fase de puesta en marcha.
+    Operacion y Mantenimiento
+        En la fase de operaciones y mantenimiento, el nuevo sistema pasa a modo de operacion total. TI controla el sistema para asegurar que el sistema reuna los requisots de negocio pedidos. Ademas,el personal de TI realiza mantenimiento periodico en el sistema patra asegurar que el sistmea siga funcionando como se espera
+    Disposicion
+        La fase de diposicion ocurre al final del ciclo de vida del sitema, Cuando un sistema ha completado su tiempo de vida y se retira, est afase proporiciona una serue de pasos sistematicos para finalizar el sistema. Realizar esta fase asegura que la informacion vital se mantenga para los negocios futuros o las necesidades del sistema. ademas, la disposiccion del sistema adecuada es necesaria para asegurar que componentes del sistema, datos y software, se dispongna de forma adecuada y segun las normas de la compañia.
+
+INVESTIGAR
+LENGUAJES QUE SOPORTEN POO:
+Java
+Python
+C++
+C#
+JavaScript
+Ruby
+PHP
+Swift
+Objective-C
+Kotlin
+Scala
+Groovy
+Perl
+Rust
+Go
+Dart
+R
+MATLAB
+Visual Basic .NET
+TypeScript
+
+
+
+LENGUAJES DE PROGRAMACION ORIENTADA A OBJETOS, SU HISTORIA Y EL RANKING DE LOS LENGUAJES Y QUE ES LO QUE MAS SE PIDE
+EN QUE LENGUAJE ESTA EL SAT Y LOS BANCOS 
+INSTALAR NETBEANS
+
+
+
+
+
+
+
+
+
+Unidad 2.
